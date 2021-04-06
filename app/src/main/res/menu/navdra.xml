@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_book"
+            android:icon="@drawable/abc_vector_test"
+            android:title="book"/>
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/abc_vector_test"
+            android:title="home"/>
+
+
+
+
+    </group>
+
+    <item android:title="Reading">
+
+    <menu>
+        <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_chrome_reader"
+                android:icon="@drawable/abc_vector_test"
+                android:title="Login"/>
+
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/abc_vector_test"
+                android:title="profile"/>
+
+
+        </group>
+
+
+    </menu>
+
+
+    </item>
+
+    <item android:title="comments">
+
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_comments"
+                    android:icon="@drawable/abc_vector_test"
+                    android:title="Add comment"/>
+
+                <item
+                    android:id="@+id/nav_insert"
+                    android:icon="@drawable/abc_vector_test"
+                    android:title="Insert comment"/>
+
+
+            </group>
+
+
+        </menu>
+
+
+    </item>
+
+
+
+</menu>
